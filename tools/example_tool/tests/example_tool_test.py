@@ -1,12 +1,11 @@
 import unittest
 from unittest.mock import patch, MagicMock
 
-from tools.example_tool.use_cases.example_use_case import run_example_use_case
+from tools.example_tool.use_cases.example_tool_use_case import run_example_tool_use_case
 
-
-class TestExampleUseCase(unittest.TestCase):
-    @patch("tools.example_tool.use_cases.example_use_case.ExampleModel")
-    def test_run_example_use_case(self, mock_model):
+class TestExample_ToolUseCase(unittest.TestCase):
+    @patch("tools.example_tool.use_cases.example_tool_use_case.Example_ToolModel")
+    def test_run_example_tool_use_case(self, mock_model):
         # Arrange
         mock_instance = MagicMock()
         mock_model.return_value = mock_instance
@@ -15,7 +14,7 @@ class TestExampleUseCase(unittest.TestCase):
         attribute2 = "test2"
 
         # Act
-        run_example_use_case(
+        run_example_tool_use_case(
             attribute1,
             attribute2,
         )
