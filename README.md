@@ -13,7 +13,7 @@ When in need of a new tool, you can use the `create_tool.py` script to generate 
 2. Run the script with Python:
 
     ```bash
-    python create_tool.py
+    python .\scripts\create_tool.py
     ```
 
 3. When prompted, enter the desired name for your new tool. The script will generate the necessary files and structure for the tool.

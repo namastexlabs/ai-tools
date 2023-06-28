@@ -66,7 +66,6 @@ Each feature/toolset directory is further divided into:
 
 - **models:** This directory contains all data models or entities related to the toolset.
 - **use_cases:** This directory contains all the business logic and rules for the toolset.
-- **repositories:** This directory contains all the data access logic, e.g., reading from or writing to a database, making network requests, etc.
 - **tests:** This directory contains all the unit tests, integration tests, and end-to-end tests for the toolset.
 
 **config:** Contains configuration files, such as environment variables.
