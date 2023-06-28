@@ -46,12 +46,10 @@ namastex_toolkit
   │   ├── tokenizer
   │   │   ├── models
   │   │   ├── use_cases
-  │   │   ├── repositories
   │   │   ├── tests
   │   ├── transcriptor
   │   │   ├── models
   │   │   ├── use_cases
-  │   │   ├── repositories
   │   │   ├── tests
   │   └── ...
   ├── config

@@ -1,5 +1,6 @@
 # Project specific settings
 pylint
+pytest
 
 # Tool Dependencies
 tiktoken
